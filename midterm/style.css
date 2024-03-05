@@ -9,3 +9,10 @@ body{
     background-color: whitesmoke
     padding: 1em;
 }
+
+header{
+    background-color: black;
+    background-image: url(webimgs/01main.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
