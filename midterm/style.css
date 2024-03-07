@@ -3,7 +3,7 @@ body{
 }
 
 #wrapper {
-    width: 1300px
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke
@@ -12,7 +12,7 @@ body{
 
 header{
     background-color: black;
-    background-image: url(webimgs/01banner.png)
+    background-image: url(webimgs/02bannerr.jpg)
     background-repeat: no-repeat;
     background-position: center;
 }
