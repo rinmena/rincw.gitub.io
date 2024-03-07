@@ -3,20 +3,38 @@ body{
 }
 
 #wrapper {
-    width: 1500px
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke
-    
+    background-color: whitesmoke;
 }
 
 header{
-    background-color: rgb(255, 255, 255);
-    background-image: url(webimgs/02bannerr.jpg)
+    background-image: url(webimgs/02bannerr.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
+    background-size: 70%;
 
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%
-    rgba(255,255,255,1) 35%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(90deg, (#ffffff 32.94%, #ffffff 36.87%, rgba(0, 0, 0, 0.00) 44.95%, rgba(0, 0, 0, 0) 100%),
+             url("webimgs/02bannerr.jpg") no-repeat center/70%,
+             #362020
+                 
+}
+
+p{
+    width: 300px;
+    color: white
+
+}
+
+#btn {
+    display:block;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius:  10px;
+    width: 5em;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: lowercase;
 }
