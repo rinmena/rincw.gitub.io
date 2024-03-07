@@ -14,20 +14,21 @@ header{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 70%;
-
     background: linear-gradient(90deg, (#ffffff 32.94%, #ffffff 36.87%, rgba(0, 0, 0, 0.00) 44.95%, rgba(0, 0, 0, 0) 100%),
              url("webimgs/02bannerr.jpg") no-repeat center/70%,
              #362020
+    
+    padding:2em;
                  
 }
 
-p{
-    width: 300px;
-    color: white
-
+.banner-text{
+    font-size: 1.2rem;
+    width: 30%;
+    color: white;
 }
 
-#btn {
+.btn {
     display:block;
     background-color: grey;
     color: white;
