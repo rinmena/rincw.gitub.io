@@ -12,7 +12,7 @@ body{
 
 header{
     background-color: black;
-    background-image: url(webimgs/01main.jpg);
+    background-image: url(webimgs/01banner.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
 }
