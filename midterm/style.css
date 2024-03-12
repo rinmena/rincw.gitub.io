@@ -6,18 +6,35 @@ body{
     width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
+}
+
+#nav1 {
+    background-color: #ddd;   
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#nav1 a:link {
+    color: black;
+    border: black;
+    text-align: center;
+    display: block;
+    border-radius: 16px;
 }
 
 header{
     background-image: url(webimgs/02bannerr.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 70%;
-    background: linear-gradient(90deg, (#ffffff 32.94%, #ffffff 36.87%, rgba(0, 0, 0, 0.00) 44.95%, rgba(0, 0, 0, 0) 100%),
-             url("webimgs/02bannerr.jpg") no-repeat center/70%,
-             #362020
-    
+    background-size: 100%;
+    font-size: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+    background: linear-gradient(90deg, whitesmoke 22.94%, whitesmoke 10.87%, rgba(0, 0, 0, 0.00) 44.95%, rgba(0, 0, 0, 0) 100%),
+             url("webimgs/02bannerr.jpg") no-repeat center/100%,
+             #362020 60%;
+
     padding:2em;
                  
 }
@@ -26,9 +43,22 @@ header{
     font-size: 1.2rem;
     width: 30%;
     color: white;
+    padding: 2em;
 }
 
-.btn {
+.col-left {
+    width: 50%;
+    height: 100px;
+    float: left; 
+}
+
+.col-right{
+    padding: 25px;
+    margin-left: 50%;
+    height: 100px;
+}
+
+#btn {
     display:block;
     background-color: grey;
     color: white;
